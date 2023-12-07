@@ -1,0 +1,29 @@
+.fundo{
+   background-color:rgb(0, 0, 0);
+
+}
+* {margin:5}
+
+.gallery{
+    display: flex;
+    width: 90%;
+    align-items: center;
+}
+.container__grande{
+    aspect-ratio: 12/16;
+    min-width: 0;
+    flex: 1 1  10px;
+    object-fit: cover;
+    opacity: .99;
+    transition: .5s;
+    margin: 15px 2px;
+    border: rgb(0, 0, 0) solid;
+}
+.container__grande:hover{
+    flex: 1 1 200px;    
+    opacity: 1;
+}
+body{
+    font-size: 2rem;
+    color: rgb(83, 83, 83)
+}
